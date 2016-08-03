@@ -3,7 +3,7 @@ var app = express();
 var path = require('path');
 
 app.get('/', function(req,res) {
-  res.sendFile(path.join(__dirname + '/index.html'));
+  res.sendFile(path.join(__dirname + '/tester.html'));
 });
 
 app.use('/assets', express.static(__dirname + '/assets'));

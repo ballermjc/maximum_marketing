@@ -1,0 +1,53 @@
+html, body {
+
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  background-image: url('images/jumbo.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 300px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 100%;
+}
+
+.two {
+  background-color: black;
+  flex: 1 1 40vh;
+  text-align: center;
+}
+
+.two img{
+  width: 50vw;
+  height: auto;
+}
+
+.three {
+  background-color: #e6f2ff;
+  flex: 1 1 80vh;
+  align-items: center;
+}
+
+.four {
+  background-color: black;
+  flex: 1 1 30vh;
+}
+
+.main img{
+  width: 70vw;
+  height: auto;
+}
