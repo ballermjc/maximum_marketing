@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Maximum Marketing, Inc</title>
+</head>
+
+  <!-- linking twitter bootstrap -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- linking angular -->
+  <script src="/assets/angular.min.js"></script>
+  <!-- linking custom styles -->
+  <link rel="stylesheet" href="/assets/styles.css">
+  <!-- include jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <!-- include Cycle2 -->
+  <script src="/assets/jquery.cycle2.min.js"></script>
+  <!-- include fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+
+
+<body ng-app ="" ng-cloak>
+  <div class="container-fullwidth">
+    <div ng-include="'/assets/views/navbar.html'"></div>
+
+
+
+    <div class="landing">
+      <div class="logo">
+        <img ng-src="/assets/images/logo.jpg" class="img img-responsive center-block">
+      </div>
+
+      <div class="row-fluid main cycle-slideshow"
+        data-cycle-center-horz=true
+        data-cycle-center-vert=true
+        data-cycle-pause-on-hover="true"
+
+        data-cycle-fx="fadeout"
+        data-cycle-speed="4500"
+        data-cycle-timeout="1"
+        data-cycle-easing="linear"
+
+      >
+
+        <img class="img img-responsive" src="/assets/images/bus_state2.jpg">
+        <img class="img img-responsive" src="/assets/images/bus_state3.jpg">
+        <img class="img img-responsive" src="/assets/images/bus_state4.jpg">
+        <img class="img img-responsive" src="/assets/images/bus_state5.jpg">
+      </div>
+
+    </div>
+  </div>
+
+<div class="footer container-fullwidth">
+  <div class="row-fluid">
+    <div ng-include="'/assets/views/contact.html'"></div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

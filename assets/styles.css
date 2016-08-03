@@ -1,0 +1,60 @@
+html, body {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  }
+
+.navbar-default {
+    background-color: #000000;
+    border-color: #000000;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #FE0000;
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #FE0000;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+}
+
+.landing {
+  width: 100vw;
+}
+
+.logo {
+  background-color: #000000;
+  margin: -2em -2em;
+}
+
+.logo img{
+  height: auto;
+  max-width: 50vw;
+  padding: 1em 0 1em 1em;
+  margin-left: 15em;
+  margin-top: -1em;
+}
+
+.main {
+  margin: 1em;
+  height: .5em;
+}
+
+.main img{
+  margin-top: 1em;
+  max-height: 100em;
+}
+
+.footer {
+  height: 12em;
+  background-color: #000000;
+  position: relative;
+  top: 67vh;
+  padding-top: 1em;
+  color: #FFFFFF;
+}
