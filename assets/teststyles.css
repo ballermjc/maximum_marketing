@@ -1,5 +1,6 @@
 html, body {
   font-family: times;
+  background-color: black;
 }
 
 .wrapper {
@@ -26,10 +27,12 @@ html, body {
 
 .left-header {
   border-right: 1px solid #e6f2ff;
+  height: 100%;
 }
 
 .right-header {
   text-transform: uppercase;
+  height: 100%;
 }
 
 .two img{
@@ -57,11 +60,11 @@ html, body {
 .four {
   padding: 2em 0em;
   background-color: black;
-  flex: 1 1 58vh;
+  flex: 1 1 55vh;
   color: white;
 }
 
-.four h4, h5, p {
+.four h1, h4, h5, p {
   text-align: center;
 }
 
@@ -74,6 +77,27 @@ html, body {
 
 .four h5 {
   font-size: 2vw;
+}
+
+.panel-title a {
+  font-size: 150%;
+  font-weight: 150;
+}
+
+.panel-group {
+  font-size: 150%;
+  font-weight: 300;
+}
+
+
+@media (max-width: 768px) {
+  .four h4 {
+    font-size: 2em;
+  }
+
+  .four h5 {
+    font-size: 1.5em;
+  }
 }
 
 .main img{
@@ -90,7 +114,7 @@ html, body {
 @media (max-width: 768px) {
   .btn {
     padding:2px 4px;
-    font-size:60%;
+    font-size:110%;
     line-height: 1;
     border-radius:3px;
   }
@@ -99,7 +123,7 @@ html, body {
 @media (min-width: 769px) and (max-width: 992px) {
   .btn {
     padding:4px 9px;
-    font-size:70%;
+    font-size:90%;
     line-height: 1.2;
   }
 }
